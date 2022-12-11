@@ -80,6 +80,26 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center ;
+                .brain{
+                    g{
+                        path{
+                            animation: path 2s ease-in-out infinite alternate-reverse;
+                        }
+                        rect{
+                            animation: rect 1s ease-in-out infinite alternate-reverse;
+                        }
+                        ellipse{
+                            animation: ellipse 2s ease-in-out infinite alternate-reverse;
+                        }
+                        circle{
+                            animation: circle 1s ease-in-out infinite alternate-reverse;
+                        }
+                        @keyframes path {form{fill: #ffd9006f;} to{fill: #ffe448 }}
+                        @keyframes rect {form{fill: transparent;} to{fill: #fbe048 }}
+                        @keyframes ellipse {form{fill: transparent;} to{fill: #ffd900b7 }}
+                        @keyframes circle {form{fill: transparent;} to{fill: #fcdd2f }}
+                    }
+                }
             }
         }
     }
